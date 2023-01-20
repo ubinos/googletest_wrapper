@@ -6,5 +6,9 @@
 
 # ubinos_config_info {"name_base": "googletest", "build_type": "cmake_ubinos"}
 
+set_cache(PROJECT_TOOLCHAIN_C_STD "GNU11" STRING)
+set_cache(PROJECT_TOOLCHAIN_CXX_STD "GNU++14" STRING)
+set_cache(PROJECT_TOOLCHAIN_CXX_W_NO_CXX14_COMPAT FALSE BOOL)
+
 include(${PROJECT_UBINOS_DIR}/config/ubinos_local_llvm_baremetal.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/googletest.cmake)
