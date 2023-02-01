@@ -52,7 +52,7 @@ static void root_func(void *arg)
 
     printf("\n\n\n");
     printf("================================================================================\n");
-    printf("googletest_samble1_unittest (build time: %s %s)\n", __TIME__, __DATE__);
+    printf("googletest_sample1_unittest (build time: %s %s)\n", __TIME__, __DATE__);
     printf("================================================================================\n");
     printf("\n");
 

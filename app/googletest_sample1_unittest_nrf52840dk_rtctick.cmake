@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# ubinos_config_info {"name_base": "googletest_samble1_unittest", "build_type": "cmake_ubinos", "app": true}
+# ubinos_config_info {"name_base": "googletest_sample1_unittest", "build_type": "cmake_ubinos", "app": true}
 
 set_cache(PROJECT_TOOLCHAIN_C_STD "GNU11" STRING)
 set_cache(PROJECT_TOOLCHAIN_CXX_STD "GNU++14" STRING)
@@ -18,7 +18,7 @@ include(${PROJECT_LIBRARY_DIR}/googletest_wrapper/config/googletest.cmake)
 ####
 
 set(INCLUDE__APP TRUE)
-set(APP__NAME "googletest_samble1_unittest")
+set(APP__NAME "googletest_sample1_unittest")
 
 get_filename_component(_tmp_source_dir "${GOOGLETEST__BASE_DIR}/googletest/samples" ABSOLUTE)
 
